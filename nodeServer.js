@@ -7,15 +7,15 @@ const server = http.createServer((req, res) => {
     if (req.url === "/") {
         res.statusCode = 200;
         res.setHeader("content-type", "text/plain");
-        res.end("Hello niqqa");
+        res.end("Hello lol");
     } else if (req.url === "/ice-tea") {
         res.statusCode = 200;
         res.setHeader("content-type", "text/plain");
-        res.end("Hello niqqa. here's yout ice tea");
+        res.end("Hello lol. here's yout ice tea");
     } else {
         res.statusCode = 404;
         res.setHeader("content-type", "text/plain");
-        res.end("not found niqqa");
+        res.end("not found lol");
     }
 });
 
