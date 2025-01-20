@@ -5,7 +5,7 @@ serve({
         const url = new URL(request.url);
         if (url.pathname === "/") {
             return new Response("Hello lol", { status: 200 });
-        } else if (url.pathname === "/nigga") {
+        } else if (url.pathname === "/lol") {
             return new Response("Hello lol, skibidi lol", { status: 200 });
         } else {
             return new Response("404 not found lol", { status: 404 });
